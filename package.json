@@ -2,23 +2,30 @@
 	"name": "tldraw-workflow",
 	"private": true,
 	"version": "0.0.0",
-	"author": { "name": "tldraw GB Ltd.", "email": "hello@tldraw.com" },
+	"author": {
+		"name": "tldraw GB Ltd.",
+		"email": "hello@tldraw.com"
+	},
 	"homepage": "https://tldraw.dev",
 	"license": "MIT",
 	"type": "module",
-	"scripts": { "dev": "vite", "build": "tsc && vite build", "preview": "vite preview" },
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
 	"dependencies": {
 		"classnames": "^2.5.1",
 		"radix-ui": "^1.4.2",
 		"react": "^19.2.1",
 		"react-dom": "^19.2.1",
-		"tldraw": "^4.5.10"
+		"tldraw": "^5.0.0"
 	},
 	"devDependencies": {
 		"@types/react": "^19.2.7",
 		"@types/react-dom": "^19.2.3",
-		"@vitejs/plugin-react-swc": "^3.10.2",
+		"@vitejs/plugin-react": "^6.0.1",
 		"typescript": "^5.8.3",
-		"vite": "^7.0.1"
+		"vite": "^8.0.1"
 	}
 }
