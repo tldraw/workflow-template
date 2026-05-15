@@ -19,7 +19,7 @@
 		"radix-ui": "^1.4.2",
 		"react": "^19.2.1",
 		"react-dom": "^19.2.1",
-		"tldraw": "^5.0.0"
+		"tldraw": "^5.0.1"
 	},
 	"devDependencies": {
 		"@types/react": "^19.2.7",
